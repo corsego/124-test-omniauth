@@ -95,6 +95,8 @@ GEM
       responders
       warden (~> 1.2.3)
     erubi (1.12.0)
+    faker (3.1.1)
+      i18n (>= 1.8.11, < 2)
     faraday (2.7.4)
       faraday-net_http (>= 2.0, < 3.1)
       ruby2_keywords (>= 0.0.4)
@@ -263,6 +265,7 @@ DEPENDENCIES
   capybara
   debug
   devise (~> 4.9)
+  faker
   importmap-rails
   jbuilder
   omniauth-azure-activedirectory-v2
