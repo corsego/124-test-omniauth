@@ -3,5 +3,5 @@ class User < ApplicationRecord
   # :confirmable, :lockable, :timeoutable, :trackable and :omniauthable
   devise :database_authenticatable, :registerable,
          :recoverable, :rememberable, :validatable,
-         :omniauthable, omniauth_providers: %i[azure_activedirectory_v2]
+         :omniauthable, omniauth_providers: %i[azure_activedirectory_v2 github]
 end

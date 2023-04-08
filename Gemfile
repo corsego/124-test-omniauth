@@ -74,3 +74,4 @@ end
 gem "devise", "~> 4.9"
 gem 'omniauth-azure-activedirectory-v2'
 gem "omniauth-rails_csrf_protection"
+gem 'omniauth-github'
